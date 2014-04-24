@@ -23,8 +23,20 @@ into this
 ```
 
 ### Installation
-```bower install halfsies```
+#### Inlude haflsies.js
+##### For bower users:
+
+`bower install halfsies`
+
 Then link/include `bower_components/halfsies/app/js/halfsies.js` in the directory.
+
+##### For everyone else:
+
+[Download Halfsies](https://raw.githubusercontent.com/jkarmel/Halfsies/master/app/js/halfsies.js)
+
+And link/include it in your project.
+
+#### Load Angular Module
 
 Halfsies is currently configured as an angular module, though I hope to make it independent of angular at some point. That means you can only use it with angular and you need to include it as an angular module in addition to loading it.
 
