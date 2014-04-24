@@ -2,9 +2,9 @@
 
 angular.module("myApp.controllers", [])
 .controller("Halfsies", [
-  "$scope", "compile", '$sce', function($scope, compile, $sce) {
+  "$scope", "halfsies", '$sce', function($scope, halfsies, $sce) {
     $scope.html = function() {
-      return $sce.trustAsHtml(compile($scope.half))
+      return $sce.trustAsHtml(halfsies($scope.half))
     }
   }
 ]);
@@ -13,5 +13,5 @@ angular.module("myApp.controllers", [])
 // Declare app level module which depends on filters, and services
 angular.module('myApp', [
   'myApp.controllers',
-  'myApp.services'
+  'halfsies'
 ]);

@@ -3,7 +3,7 @@
   var services,
     __slice = [].slice;
 
-  services = angular.module('myApp.services', []);
+  services = angular.module('halfsies', []);
 
   services.factory('deepCopyJSON', function() {
     return function(obj) {
@@ -526,7 +526,7 @@
     };
   });
 
-  services.factory('compile', [
+  services.factory('halfsies', [
     'parseTags', 'insertNewlines', 'processTags', 'groupByLines', 'processLines', 'indentLine', 'groupByIndent', 'render', function(parseTags, insertNewlines, processTags, groupByLines, processLines, indentLine, groupByIndent, render) {
       return function(text) {
         var html, lines, tokens, topLines;

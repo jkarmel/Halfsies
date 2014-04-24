@@ -1,4 +1,4 @@
-services = angular.module('myApp.services', [])
+services = angular.module('halfsies', [])
 
 services.factory 'deepCopyJSON', ->
   (obj) ->
@@ -362,7 +362,7 @@ services.factory 'render', ->
       lines = arg
       renderLines lines
 
-services.factory 'compile', [
+services.factory 'halfsies', [
   'parseTags'
   'insertNewlines'
   'processTags'
