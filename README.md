@@ -3,7 +3,7 @@
 
 Halfsies turns this
 
-```
+```HTML
 <div>Hi
   <h1>Ba
   <p>
@@ -12,7 +12,7 @@ Halfsies turns this
 ```
 
 into this
-```html
+```HTML
 <div>Hi
   <h1>Ba</h1>
   <p>
@@ -42,4 +42,17 @@ Halfsies is currently configured as an angular module, though I hope to make it 
 
 ```javascript
 angular.module('App', ['halfsies'])
+```
+
+### Usage
+The halfsies services is simply a function that takes in a string of halfsies templates and returns the corresponding html.
+
+This is how it would work in a controller.
+
+```javascript
+function AppController ($scope, halfsies) {
+  $scope.renderHalfsiesTemplate = function (templateString) {
+    return halfsies(templateString)
+  }
+}
 ```
