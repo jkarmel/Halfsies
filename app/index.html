@@ -4,10 +4,16 @@
   <meta charset="utf-8">
   <title>My AngularJS App</title>
   <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
 </head>
 <body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center">Halfsies</h1>
+      <h2 class="text-center">Never Write Another Closing Tag</h2>
+    </div>
+  </div>
   <div ng-controller="Halfsies">
-    <h1>Write in halfsies!</h1>
     <textarea ng-model="half" cols="40" rows="5"/></textarea>
     <p ng-bind-html="html()"></p>
   </div>
