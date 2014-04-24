@@ -1,7 +1,7 @@
 {
-  "name": "angular-seed",
-  "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "name": "halfsies",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jkarmel/Halfsies",
   "authors": [
     "Jeremy Karmel <jkarmel@me.com>"
   ],
@@ -16,5 +16,11 @@
   "dependencies": {
     "underscore": "~1.5.2",
     "underscore.string": "~2.3.3"
-  }
+  },
+  "description": "Indent Based HTML Templates",
+  "main": "app/js/halfsies.js",
+  "keywords": [
+    "template",
+    "angular"
+  ]
 }
