@@ -1,0 +1,20 @@
+{
+  "name": "angular-seed",
+  "version": "0.0.0",
+  "homepage": "https://github.com/angular/angular-seed",
+  "authors": [
+    "Jeremy Karmel <jkarmel@me.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.5.2",
+    "underscore.string": "~2.3.3"
+  }
+}
