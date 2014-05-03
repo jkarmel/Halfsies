@@ -1,6 +1,8 @@
 #Halfsies
 ## Indent Based HTML Without Closing Tags
 
+#### (Write Half As Many Tags)
+
 Halfsies turns this
 
 ```HTML
